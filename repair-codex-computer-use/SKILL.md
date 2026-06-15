@@ -1,6 +1,6 @@
 ---
 name: repair-codex-computer-use
-description: Diagnose and repair specific Windows Codex Desktop Computer Use and Chrome plugin loading failures. Use when openai-bundled is missing, chrome@openai-bundled or computer-use@openai-bundled are not installed, or @oai/sky@0.4.10 throws Package subpath ... is not defined by exports for computer_use_client_base.js. Do not use as a general account, region, feature-flag, antivirus, enterprise-policy, or sandbox-permission fix.
+description: Windows-only diagnosis and repair for specific Windows Codex Desktop Computer Use and Chrome plugin loading failures. Use when openai-bundled is missing, chrome@openai-bundled or computer-use@openai-bundled are not installed, or @oai/sky@0.4.10 throws Package subpath ... is not defined by exports for computer_use_client_base.js. Do not use on macOS, Linux, ChatGPT web, or as a general account, region, feature-flag, antivirus, enterprise-policy, or sandbox-permission fix.
 ---
 
 # Repair Codex Computer Use
@@ -8,6 +8,9 @@ description: Diagnose and repair specific Windows Codex Desktop Computer Use and
 Use this skill only for Windows Codex Desktop Computer Use and Chrome plugin
 loading failures caused by missing `openai-bundled` marketplace registration or
 the known `@oai/sky@0.4.10` exports mismatch.
+
+This is Windows-only. Do not use this skill for macOS, Linux, ChatGPT web, or
+non-Windows Codex environments.
 
 Do not present this as a universal Computer Use unlocker. It does not fix
 account entitlement, regional rollout, feature flags, enterprise policy,

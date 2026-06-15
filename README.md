@@ -1,9 +1,13 @@
-# repair-codex-computer-use
+# windows-codex-computeruse-repair
+
+**Windows only. This project is only for Windows Codex Desktop.**
+
+中文：**仅支持 Windows 版 Codex Desktop。Mac、Linux、网页版 ChatGPT 不适用。**
 
 Unofficial community repair skill and scripts for a narrow set of Windows
 Codex Desktop Computer Use and Chrome plugin loading issues.
 
-中文：Windows Codex Desktop Computer Use 插件不可用修复工具，适用于
+中文：Windows Codex Desktop 的 Computer Use 插件不可用修复工具，适用于
 `openai-bundled` 插件源缺失、`computer-use@openai-bundled` 不显示、
 `chrome@openai-bundled` 不显示，以及 `@oai/sky@0.4.10` 的 package
 `exports` 版本错配问题。
@@ -18,6 +22,8 @@ instructions, and minimal patch scripts that operate on files already present
 on the user's own machine.
 
 ## Beginner Quick Start
+
+This is for Windows only.
 
 You do not need to know Git.
 
@@ -44,7 +50,7 @@ explicit `-Apply` when a file-changing repair is needed.
 
 ## One Sentence Summary
 
-This tool helps when Windows Codex Desktop cannot load Computer Use because
+This Windows-only tool helps when Windows Codex Desktop cannot load Computer Use because
 `openai-bundled` is missing or because `@oai/sky@0.4.10` blocks a known internal
 Computer Use import through package `exports`.
 
@@ -56,9 +62,14 @@ about:
 - Codex Computer Use 修复
 - Codex ComputerUse 修复
 - computeruse 修复
+- Windows computeruse 修复
+- Windows Codex computeruse 修复
+- Windows Codex Desktop Computer Use 修复
 - Computer Use plugin unavailable
 - Computer Use 插件不可用
+- Windows Computer Use 插件不可用
 - Windows Codex Computer Use 不可用
+- Windows Codex Desktop ComputerUse 不可用
 - openai-bundled missing
 - chrome@openai-bundled not installed
 - computer-use@openai-bundled not installed
@@ -67,6 +78,12 @@ about:
 - `computer_use_client_base.js`
 
 ## Exact Problem This Targets
+
+Operating system requirement:
+
+```text
+Windows only
+```
 
 Use this project when at least one of these is true:
 
