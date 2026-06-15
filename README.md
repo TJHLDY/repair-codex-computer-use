@@ -3,6 +3,11 @@
 Unofficial community repair skill and scripts for a narrow set of Windows
 Codex Desktop Computer Use and Chrome plugin loading issues.
 
+中文：Windows Codex Desktop Computer Use 插件不可用修复工具，适用于
+`openai-bundled` 插件源缺失、`computer-use@openai-bundled` 不显示、
+`chrome@openai-bundled` 不显示，以及 `@oai/sky@0.4.10` 的 package
+`exports` 版本错配问题。
+
 This is not a general "enable Computer Use for every account or region" tool.
 It is meant for users who already have Windows Codex Desktop installed, but the
 local plugin/runtime wiring is broken.
@@ -42,6 +47,24 @@ explicit `-Apply` when a file-changing repair is needed.
 This tool helps when Windows Codex Desktop cannot load Computer Use because
 `openai-bundled` is missing or because `@oai/sky@0.4.10` blocks a known internal
 Computer Use import through package `exports`.
+
+## Search Keywords
+
+People may search for this issue using different spellings. This repository is
+about:
+
+- Codex Computer Use 修复
+- Codex ComputerUse 修复
+- computeruse 修复
+- Computer Use plugin unavailable
+- Computer Use 插件不可用
+- Windows Codex Computer Use 不可用
+- openai-bundled missing
+- chrome@openai-bundled not installed
+- computer-use@openai-bundled not installed
+- `Package subpath ... is not defined by "exports"`
+- `@oai/sky` exports mismatch
+- `computer_use_client_base.js`
 
 ## Exact Problem This Targets
 
